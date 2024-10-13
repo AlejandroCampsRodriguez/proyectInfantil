@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+h1{
+
+  text-align: center;
+  font-family: "Playwrite AR", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  margin:20px;
+  padding: 10px;
+}
+
+
+/* donde sale el resultado*/
+.contenedor_resultado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.resultado {
+
+  color:black;
+  font-size: 25px;
+  height: 250px;
+  width: 250px;
+}
+
+
+
+
+
+

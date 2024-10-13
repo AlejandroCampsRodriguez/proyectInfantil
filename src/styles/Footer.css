@@ -1,0 +1,57 @@
+
+*{
+  margin:0;
+  padding: 0;
+
+}
+
+
+
+/*footer*/
+.footerMaster{
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+  width: 100%;
+  height: 950px;
+}
+
+
+.footerPadre{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 1000%;
+  height: 1000px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  background-color: black;
+}
+
+.footer i{
+  color:rgb(255, 255, 255);
+  font-size: 24px;
+  background-color: black;
+
+}
+
+
+
+@media screen and (max-width: 991px){ 
+
+.footer{
+  height: 100%;
+}
+      
+
+   
+  
+  }
+  
+  
+  
+  

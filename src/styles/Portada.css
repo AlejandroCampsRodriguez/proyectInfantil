@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* nav */
+
+
+.con_nav_master {
+  justify-content: center;
+  width: 100%;
+
+}
+
+.con_nav_master  li{
+  justify-content: center;
+  margin-left:40px;
+  font-size: 20px;
+
+}
+
+.nav-item a{
+  text-decoration: none;
+}
+
+
+.titulo{
+  text-align: center;
+}
+
+/*imagen*/
+.contenedor_master_img{
+  display: flex;
+  justify-content: center;
+  /*background-color: brown;*/
+}
+
+
+.contenedor_padre_img{
+  width: 50%;
+  /*background-color: blue;*/
+}
+
+
+@media screen and (max-width: 991px){ 
+
+
+
+.navbar-nav{
+  position: absolute;
+  }
+  
+  /*espacio entre los enlaces nav*/
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .con_nav_master{
+    width:100%;
+    background-color: beige;
+    padding: 1rem;
+  
+  }
+  
+  .contenedor_master_img_txt{
+    justify-items: center;  
+    width:100%;
+  }
+  
+  /* titulo */
+  .h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    
+  }
+ 
+
+
+}
+
+
+
